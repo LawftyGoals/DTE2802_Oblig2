@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\controllers\\authorcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\controllers\\authorcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\service\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\service\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\models\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\models\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614D6C85-3B9B-4C54-BA76-76CDAB3697A3}|BookAPITests\\BookAPITests.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapitests\\bookcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614D6C85-3B9B-4C54-BA76-76CDAB3697A3}|BookAPITests\\BookAPITests.csproj|solutionrelative:bookapitests\\bookcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|c:\\users\\mymsn\\documents\\uit\\dte2802\\dte2802_oblig2\\bookapi\\bookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7F9996A-2E27-4877-A14E-513E85FE0129}|BookAPI\\BookAPI.csproj|solutionrelative:bookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorController .cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Controllers\\AuthorController .cs",
+              "RelativeDocumentMoniker": "BookAPI\\Controllers\\AuthorController .cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Controllers\\AuthorController .cs",
+              "RelativeToolTip": "BookAPI\\Controllers\\AuthorController .cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwBUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:23:02.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\AuthorService.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Service\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\AuthorService.cs",
+              "RelativeToolTip": "BookAPI\\Service\\AuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:24:48.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Service\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\IAuthorService.cs",
+              "RelativeToolTip": "BookAPI\\Service\\IAuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:23:36.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\AuthorDto.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Models\\AuthorDto.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\AuthorDto.cs",
+              "RelativeToolTip": "BookAPI\\Models\\AuthorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:21:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\Author.cs",
+              "RelativeToolTip": "BookAPI\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:20:13.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Data\\BookDbContext.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Data\\BookDbContext.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Data\\BookDbContext.cs",
+              "RelativeToolTip": "BookAPI\\Data\\BookDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:11:03.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPITests\\BookControllerTests.cs",
+              "RelativeDocumentMoniker": "BookAPITests\\BookControllerTests.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPITests\\BookControllerTests.cs",
+              "RelativeToolTip": "BookAPITests\\BookControllerTests.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwH8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:30:19.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\BookDto.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Models\\BookDto.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\BookDto.cs",
+              "RelativeToolTip": "BookAPI\\Models\\BookDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:58:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\BookService.cs",
+              "RelativeToolTip": "BookAPI\\Service\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:14:04.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Models\\Book.cs",
+              "RelativeToolTip": "BookAPI\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:12:06.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\IBookService.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Service\\IBookService.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Service\\IBookService.cs",
+              "RelativeToolTip": "BookAPI\\Service\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:48:39.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookAPI\\Controllers\\BookController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:45:53.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BookAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\appsettings.json",
+              "RelativeToolTip": "BookAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-23T09:42:09.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BookAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mymsn\\Documents\\UIT\\DTE2802\\DTE2802_Oblig2\\BookAPI\\BookAPI\\Program.cs",
+              "RelativeToolTip": "BookAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:42:06.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
