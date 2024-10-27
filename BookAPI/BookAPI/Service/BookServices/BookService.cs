@@ -1,74 +1,60 @@
-﻿using BookAPI.Models.Entities;
+﻿using BookAPI.Data;
+using BookAPI.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookAPI.Service.BookServices;
 public class BookService : IBookService {
 
-    private static List<Book> Books { get; set; }
-    private static int _nextId = 5;
+    private readonly BookDbContext _db;
 
-    static BookService() {
+    public BookService(BookDbContext db) {
 
-        Books = new List<Book>() {
-            new() {
-                BookId = 1,
-                Title = "A Great Book",
-                Description = "One for the ages.",
-                Year = 2024,
-                AuthorId = 1
-            },
-            new() {
-                BookId = 2,
-                Title = "A Great Book, part 2",
-                Description = "This one is not so great.",
-                Year = 2024,
-                AuthorId = 1
-            },
-            new() {
-                BookId = 3,
-                Title = "A Silly Book",
-                Description = "A silly book indeed.",
-                Year = 2024,
-                AuthorId = 2
-            },
-            new() {
-                BookId = 4,
-                Title = "Alpha et Omega al.",
-                Description = "So dense its stupidly briliant.",
-                Year = 2024,
-                AuthorId = 3
-            },
-        };
+        _db = db;
 
     }
 
-    public async Task<List<Book>> GetAll() => await Task.FromResult(Books);
+    public async Task<List<Book>> GetAll() {
+        try {
+            var books = await _db.Books.ToListAsync();
+            return books;
+        }
+        catch (Exception ex) {
+            Console.WriteLine(ex.Message);
+            Console.WriteLine(ex.StackTrace);
+            return new List<Book>();
+        }
+    }
 
-    public async Task<Book?> Get(int id) => await Task.FromResult(Books.FirstOrDefault(b => b.BookId == id));
+    public async Task<Book?> Get(int id) {
+        try {
+            var book = await _db.Books.Where(b => b.BookId == id).FirstOrDefaultAsync();
+            return book;
+        }
+        catch (Exception ex) {
+            Console.WriteLine(ex.Message);
+            Console.WriteLine(ex.StackTrace);
+            throw;
+        }
+    }
 
     public async Task Delete(int id) {
-        Book book = await Get(id);
-        Books.Remove(book);
-        await Task.Yield();
+        var book = _db.Books.FindAsync(id);
+        _db.Books.Remove(await book ?? throw new InvalidOperationException($"No computer with id {id} found."));
+        await _db.SaveChangesAsync();
 
     }
 
-    public async Task<Task> Save(Book book) {
-        var existingBook = await Get(book.BookId);
+    public async Task Save(Book book) {
+        var existingBook = await _db.Books.FindAsync(book.BookId);
 
         if (existingBook != null) {
-            existingBook.Title = book.Title;
-            existingBook.Description = book.Description;
-            existingBook.Year = book.Year;
-            existingBook.AuthorId = book.AuthorId;
-        }
-        else {
-            book.BookId = _nextId;
-            _nextId++;
-            Books.Add(book);
+            _db.Entry(existingBook).State = EntityState.Detached;
         }
 
+        _db.Books.Update(book);
 
-        return Task.CompletedTask;
+        await _db.SaveChangesAsync();
+
     }
 
 
