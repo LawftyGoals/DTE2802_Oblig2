@@ -1,5 +1,6 @@
-﻿using BookAPI.Models;
-using BookAPI.Service;
+﻿using BookAPI.Models.Dtos;
+using BookAPI.Models.Entities;
+using BookAPI.Service.AuthorServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookAPI.Controllers;
@@ -23,6 +24,7 @@ public class AuthorController : Controller {
         return Ok(author);
     }
 
+
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete([FromRoute] int id) {
         var author = await _service.Get(id);
@@ -36,7 +38,7 @@ public class AuthorController : Controller {
     public async Task<IActionResult> Add([FromBody] AuthorDto target) {
         if (target == null) return BadRequest("Empty object can not be created");
 
-        var author = target.toAuthor();
+        var author = target.ToAuthor();
 
 
         await _service.Save(author);

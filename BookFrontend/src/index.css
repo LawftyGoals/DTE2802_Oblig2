@@ -1,0 +1,234 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+#pageHeader {
+    height: 64px;
+    font-size: 56px;
+    font-family: Arial;
+    padding: 16px 16px;
+    border-bottom: 4px solid black;
+}
+
+
+#pageGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100%;
+
+}
+
+#choicesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 4px solid black;
+}
+
+
+#dataContainer {
+    display: grid;
+    padding:16px;
+    grid-row-gap: 8px;
+}
+
+#bookAuthorContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 2fr);
+    outline: 2px solid black;
+}
+
+.bookContainer {
+    outline: 2px solid black;
+}
+
+#authorContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    outline: 2px solid black;
+}
+
+#authorBookTitle {
+    margin: 4px 0px;
+}
+
+div[id~="aside"] {
+    width:100%;
+    height: auto;
+    position: sticky;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top:16px
+}
+
+[id = "aside left"]{
+    outline: 4px solid black;
+}
+[id = "aside right"]{
+    outline: 4px solid black;
+}
+
+.overlayAdd{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.overlayUpdate{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hideOverlayContainer{
+    display: flex;
+    position: fixed;
+    min-width: 200px;
+    justify-content: end;
+    width:inherit;
+    z-index: 2;
+
+
+}
+
+.hideUpdateOverlayContainer{
+    display: flex;
+    position: fixed;
+    min-width: 200px;
+    justify-content: end;
+    width:inherit;
+    z-index: 2;
+}
+
+.defaultButton{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.defaultButton:hover{
+    background-color: gray;
+    color: lightgray;
+    border: 4px solid lightgray;
+}
+.defaultButton:active{
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+}
+
+.addForm{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.updateForm{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+form[id~="form"]{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#containerAddBook{
+    display:flex;
+    background-color: white;
+    height: 50vh;
+    width: 20vw;
+    min-width: 200px;
+    padding: 16px;
+    border: 4px solid black;
+}
+
+#containerUpdateBook{
+    display:flex;
+    background-color: white;
+    height: 50vh;
+    width: 20vw;
+    min-width: 200px;
+    padding: 16px;
+    border: 4px solid black;
+}
+
+
+
+button[id~="choice"] {
+    border: 4px solid black;
+    border-radius: 12px;
+    font-size: 32px;
+    background-color: white;
+}
+
+
+#title{
+    background-color: black;
+    color: white;
+}
+.content{
+    padding-left: 4px;
+}
+
+.notification {
+    position: fixed;
+    display: none;
+    width: 100%;
+    justify-content: center;
+    top: 32px;
+    z-index: 20;
+}
+.notificationContainer{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.buttonCloseNotification {
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 16px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+}
+
+.buttonCloseNotification:hover {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.buttonCloseNotification:active {
+    
+    color: rgba(0,0,0,0);
+    background-color: white;
+    border-color: rgba(0,0,0,0);
+}

@@ -1,5 +1,7 @@
-﻿using BookAPI.Models;
-using BookAPI.Service;
+﻿using BookAPI.Models.Dtos;
+using BookAPI.Models.Entities;
+using BookAPI.Service.AuthorServices;
+using BookAPI.Service.BookServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookAPI.Controllers;
@@ -8,9 +10,11 @@ namespace BookAPI.Controllers;
 public class BookController : Controller {
 
     readonly IBookService _service;
+    readonly IAuthorService _authorService;
 
-    public BookController(IBookService bookService) {
+    public BookController(IBookService bookService, IAuthorService authorService) {
         _service = bookService;
+        _authorService = authorService;
     }
 
     [HttpGet]
@@ -36,8 +40,21 @@ public class BookController : Controller {
     public async Task<IActionResult> Add([FromBody] BookDto target) {
         if (target == null) return BadRequest("Empty object can not be created");
 
-        var book = target.toBook();
 
+        var author = (await _authorService.GetAll()).FirstOrDefault(a => a.FirstName == target.AuthorFirstName && a.LastName == target.AuthorLastName);
+
+        var existingBook = (await _service.GetAll()).FirstOrDefault(b => b.Title == target.Title && b.AuthorId == author.AuthorId);
+
+        if (existingBook != null) return BadRequest("Book Already Exists");
+
+        if (author == null) {
+
+            await _authorService.Save(new() { FirstName = target.AuthorFirstName, LastName = target.AuthorLastName });
+
+            author = (await _authorService.GetAll()).First(a => a.FirstName == target.AuthorFirstName && a.LastName == target.AuthorLastName);
+        }
+
+        var book = new Book() { Title = target.Title, Description = target.Description, Year = target.Year, AuthorId = author.AuthorId };
 
         await _service.Save(book);
 

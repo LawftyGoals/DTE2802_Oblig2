@@ -1,4 +1,6 @@
-using BookAPI.Service;
+using BookAPI.Service.AuthorServices;
+using BookAPI.Service.BookServices;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 //Custom
 builder.Services.AddTransient<IBookService, BookService>();
+builder.Services.AddTransient<IAuthorService, AuthorService>();
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowAllRequests", policyBuilder => {
         policyBuilder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
@@ -18,6 +21,9 @@ builder.Services.AddCors(options => {
 });
 
 var app = builder.Build();
+
+//Custom
+app.UseCors("AllowAllRequests");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) {

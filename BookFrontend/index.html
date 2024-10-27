@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>BookAPI</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./src/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./src/main.js" type="module"></script>
+</head>
+
+<body>
+    <div class="notification">
+        <span class="notificationContainer"><span id="notificationMessage">Notification!</span><button
+                class="buttonCloseNotification">X</button></span>
+    </div>
+    <div class="overlayAdd">
+        <div id="containerAddBook">
+            <div class="hideOverlayContainer">
+                <button id="hideOverlay" class="defaultButton">X</button>
+            </div>
+            <div class="addForm">
+                <form id="book form" action="https://localhost:7008/api/Book">
+                    <div>
+                        <label for="bookTitle">Book Title:</label><br>
+                        <input type="text" id="inputBookTitle" name="bookTitle"><br>
+                    </div>
+                    <div>
+                        <label for="bookDescription">Book Description:</label><br>
+                        <input type="text" id="inputBookDescription" name="bookDescription"><br>
+                    </div>
+                    <div>
+                        <label for="bookYear">Year Published:</label><br>
+                        <input type="number" id="inputBookYear" name="bookYear"><br>
+                    </div>
+                    <div>
+                        <label for="bookAuthorFirstName">Author First Name:</label><br>
+                        <input type="string" id="inputBookAuthorFirstName" name="bookAuthorFirstName"><br>
+                    </div>
+                    <div>
+                        <label for="bookAuthorLastName">Author First Name:</label><br>
+                        <input type="string" id="inputBookAuthorLastName" name="bookAuthorLastName"><br>
+                    </div>
+                    <div>
+                        <input id="submitAddBook" class="defaultButton" type="submit" value="Add New Book">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlayUpdate">
+        <div id="containerUpdateBook">
+            <div class="hideUpdateOverlayContainer">
+                <button id="hideUpdateOverlay" class="defaultButton">X</button>
+            </div>
+            <div class="updateForm">
+                <form id="bookupdate form" action="https://localhost:7008/api/Book">
+                    <div>
+                        <label for="bookUpdateTitle">Book Title:</label><br>
+                        <input type="text" id="inputBookUpdateTitle" name="bookUpdateTitle"><br>
+                    </div>
+                    <div>
+                        <label for="bookUpdateDescription">Book Description:</label><br>
+                        <input type="text" id="inputBookUpdateDescription" name="bookUpdateDescription"><br>
+                    </div>
+                    <div>
+                        <label for="bookUpdateYear">Year Published:</label><br>
+                        <input type="number" id="inputBookUpdateYear" name="bookUpdateYear"><br>
+                    </div>
+                    <div>
+                        <label for="bookUpdateAuthorFirstName">Author First Name:</label><br>
+                        <input type="string" id="inputBookUpdateAuthorFirstName" name="bookUpdateAuthorFirstName"><br>
+                    </div>
+                    <div>
+                        <label for="bookUpdateAuthorLastName">Author First Name:</label><br>
+                        <input type="string" id="inputBookUpdateAuthorLastName" name="bookUpdateAuthorLastName"><br>
+                    </div>
+                    <div>
+                        <input id="submitUpdateBook" class="defaultButton" type="submit" value="Update Book">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="pageHeader">BookAPI</div>
+    <div id="pageGrid">
+        <div id="aside left">
+            <button id="addBookButton" class="defaultButton">Add Book</button>
+        </div>
+        <div id="centerContainer">
+            <div id="content">
+                <div id="choicesContainer">
+                    <button id="choice Books">Books</button>
+                    <button id="choice Authors">Author</button>
+                </div>
+                <div id="dataContainer">
+
+                </div>
+            </div>
+        </div>
+        <div id="aside right"></div>
+    </div>
+</body>
+
+</html>
